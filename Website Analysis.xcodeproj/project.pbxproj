@@ -14,6 +14,7 @@
 		7D4B9E00256869100097F73D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D4B9DFE256869100097F73D /* Main.storyboard */; };
 		7D4B9E0C256869110097F73D /* Website_AnalysisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B9E0B256869110097F73D /* Website_AnalysisTests.swift */; };
 		7D4B9E17256869110097F73D /* Website_AnalysisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B9E16256869110097F73D /* Website_AnalysisUITests.swift */; };
+		7DE877D8257B645200EBE22A /* generateWebWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE877D7257B645200EBE22A /* generateWebWindow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		7D4B9E12256869110097F73D /* Website AnalysisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Website AnalysisUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D4B9E16256869110097F73D /* Website_AnalysisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Website_AnalysisUITests.swift; sourceTree = "<group>"; };
 		7D4B9E18256869110097F73D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DE877D7257B645200EBE22A /* generateWebWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = generateWebWindow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			children = (
 				7D4B9DF52568690B0097F73D /* AppDelegate.swift */,
 				7D4B9DF72568690B0097F73D /* ContentView.swift */,
+				7DE877D7257B645200EBE22A /* generateWebWindow.swift */,
 				7D4B9DF9256869100097F73D /* Assets.xcassets */,
 				7D4B9DFE256869100097F73D /* Main.storyboard */,
 				7D4B9E01256869100097F73D /* Info.plist */,
@@ -267,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D4B9DF82568690B0097F73D /* ContentView.swift in Sources */,
+				7DE877D8257B645200EBE22A /* generateWebWindow.swift in Sources */,
 				7D4B9DF62568690B0097F73D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
